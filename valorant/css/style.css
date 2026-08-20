@@ -1,0 +1,43 @@
+h1{
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+
+}
+body{
+    background: linear-gradient(black, red, black);
+}
+p{
+    color: white;
+}
+.subtitulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+hr{
+    width: 76%;
+    background: brown;
+    height: 2.5px;
+}
+img{
+    height: 290px;
+    margin-right: 10px;
+    
+}
+p{
+    text-align: center;
+}
+.box{
+    height: fit-content;
+    margin: auto;
+
+}
+.imagens{
+    width: fit-content;
+    margin: auto;
+
+}
+video{
+    width: 70%;
+    margin: auto;
+    display: block;
+}
