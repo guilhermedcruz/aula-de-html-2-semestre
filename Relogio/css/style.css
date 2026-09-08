@@ -1,0 +1,53 @@
+@font-face {
+    font-family: relogio;
+    src: url(/fonts/DS-DIGI.TTF);
+}
+
+
+body {
+  height: 100vh;
+  background: url(/img/pngtree-asian-style-black-texture-banner-brush-stroke-object-with-japanese-wave-picture-image_15286005.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* O container central agora apenas alinha e separa os elementos */
+.central {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px; /* Espaço entre os círculos */
+}
+
+/* Cada bloco 00 agora é um círculo individual com borda vermelha */
+.central div {
+  background-color: #313332;
+  border: 14px solid #D1232E; /* O vermelho agora envolve cada círculo */
+  border-radius: 50%;
+  
+  
+  /* Largura e altura fixas para garantir um círculo perfeito */
+  width: 180px;
+  height: 180px;
+  
+  /* Centraliza os números dentro do círculo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.central div span {
+  color: white;
+  font-size: 90px;
+  font-family: relogio;
+}
+
+/* Os dois pontos ( : ) entre os relógios */
+.central > span {
+  color: #8A867F;
+  font-size: 90px;
+}
